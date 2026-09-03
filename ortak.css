@@ -64,5 +64,6 @@ nav a { margin: 0 10px; }
 .hero figcaption {
   margin-top: 18px; text-align: center;
   font-size: 11px; letter-spacing: .22em; text-transform: uppercase;
-  color: var(--brass-dim);
+  color: var(--brass-dim); line-height: 2;
 }
+.hero figcaption span { color: var(--muted); }
