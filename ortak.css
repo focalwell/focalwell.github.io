@@ -52,3 +52,16 @@ footer {
 }
 nav { margin-top: 20px; font-size: 14px; }
 nav a { margin: 0 10px; }
+
+/* Tanıtım görseli — koyu zeminde çerçevelenmiş bir baskı gibi durur. */
+.hero { margin: 34px 0 0; }
+.hero img {
+  display: block; width: 100%; height: auto;
+  border: 1px solid var(--rule); border-radius: 3px;
+  background: var(--panel);
+}
+.hero figcaption {
+  margin-top: 10px; text-align: center;
+  font-size: 11px; letter-spacing: .22em; text-transform: uppercase;
+  color: var(--brass-dim);
+}
