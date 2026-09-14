@@ -53,17 +53,157 @@ footer {
 nav { margin-top: 20px; font-size: 14px; }
 nav a { margin: 0 10px; }
 
-/* Tanıtım görseli — krem zeminli afiş; koyu sayfada basılı bir kart gibi. */
-.hero { margin: 40px 0 0; }
+/* ——————————————————————————————————————————————————————————
+   Landing sayfası (index.html). Künye sayfaları yalnızca yukarıdaki
+   ortak kısmı kullanır; aşağısı onları etkilemez.
+   —————————————————————————————————————————————————————————— */
+
+/* Dil anahtarı. body[data-lang] yalnız index.html'de var; künye
+   sayfalarında bu kurallar hiç eşleşmez, iki dil de görünmeye devam eder. */
+body[data-lang="tr"] [lang="en"] { display: none; }
+body[data-lang="en"] [lang="tr"] { display: none; }
+
+.langbtn {
+  font: inherit; color: var(--brass); background: none; border: 0;
+  padding: 0; margin: 0 10px; cursor: pointer; text-decoration: underline;
+}
+
+/* — Kahraman — */
+.hero { margin: 44px 0 0; }
+.hero figure { margin: 34px 0 0; }
 .hero img {
   display: block; margin: 0 auto;
-  width: 100%; max-width: 360px; height: auto;
+  width: 100%; max-width: 320px; height: auto;
   border-radius: 10px;
   box-shadow: 0 18px 44px rgba(0,0,0,.55);
 }
-.hero figcaption {
-  margin-top: 18px; text-align: center;
+.hero h1 { margin: 0; font-size: 34px; line-height: 1.18; }
+.hero-lede { color: var(--muted); margin: 18px 0 0; }
+.caption {
+  margin: 22px 0 0;
   font-size: 11px; letter-spacing: .22em; text-transform: uppercase;
   color: var(--brass-dim); line-height: 2;
 }
-.hero figcaption span { color: var(--muted); }
+
+.cta-row { margin: 28px 0 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.cta {
+  display: inline-block; padding: 13px 20px; border-radius: 8px;
+  background: var(--brass); color: #17140f; text-decoration: none;
+  font-size: 15px; font-weight: 600;
+}
+.cta-soon { background: var(--brass); }
+.cta-ghost {
+  background: none; color: var(--brass);
+  border: 1px solid var(--brass-dim); font-weight: 400;
+}
+
+/* — Sayılar — */
+.facts {
+  list-style: none; margin: 56px 0 0; padding: 22px 0;
+  border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; text-align: center;
+}
+.facts li { margin: 0; }
+.facts b {
+  display: block; color: var(--brass); font-weight: 400;
+  font-family: Didot, "Bodoni 72", "Playfair Display", Georgia, serif;
+  font-size: 26px; line-height: 1.2;
+}
+.facts span {
+  display: block; margin-top: 6px; font-size: 11px;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--muted);
+}
+
+/* — Fark merdiveni — */
+.ladder { display: grid; gap: 30px; margin: 26px 0 0; }
+.ladder h3 {
+  font-family: Didot, "Bodoni 72", "Playfair Display", Georgia, serif;
+  font-weight: 400; font-size: 21px; color: var(--brass); margin: 0 0 6px;
+}
+.ladder p { margin: 0; color: var(--muted); }
+
+/* — Kartlar — */
+.cards {
+  display: flex; gap: 14px; margin: 46px 0 0;
+  overflow-x: auto; padding-bottom: 10px;
+  scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+}
+.cards img {
+  flex: 0 0 auto; width: 216px; height: auto;
+  border-radius: 8px; scroll-snap-align: center;
+  box-shadow: 0 12px 30px rgba(0,0,0,.5);
+}
+
+/* — Katmanlar — */
+.tiers { display: grid; gap: 16px; margin: 26px 0 0; }
+.tier {
+  background: var(--panel); border: 1px solid var(--rule);
+  border-radius: 10px; padding: 20px;
+}
+.tier-pro { border-color: var(--brass-dim); }
+.tier-name {
+  font-size: 12px; letter-spacing: .2em; text-transform: uppercase;
+  color: var(--brass); margin-bottom: 10px; font-weight: 600;
+}
+.tier p { margin: 0; color: var(--muted); }
+.tier b { color: var(--ink); }
+
+/* — Künye — */
+.colophon { display: grid; gap: 6px; margin-top: 8px; }
+.colophon h2 { margin-top: 34px; }
+
+@media (min-width: 700px) {
+  .hero {
+    display: grid; grid-template-columns: 300px 1fr;
+    gap: 40px; align-items: center;
+  }
+  .hero figure { order: -1; margin: 0; }
+  .hero img { max-width: 300px; }
+  .ladder { grid-template-columns: 1fr 1fr; gap: 34px 40px; }
+  .tiers { grid-template-columns: 1fr 1fr; }
+  .colophon { grid-template-columns: repeat(3, 1fr); gap: 0 24px; }
+}
+
+@media (max-width: 460px) {
+  .hero h1 { font-size: 28px; }
+  .facts { grid-template-columns: repeat(2, 1fr); gap: 18px 12px; }
+}
+
+/* ——— Basın kiti (basin.html) ——— */
+.kunye { width: 100%; border-collapse: collapse; margin: 18px 0 0; font-size: 15px; }
+.kunye tr { border-bottom: 1px solid var(--rule); }
+.kunye th {
+  text-align: left; vertical-align: top; padding: 10px 14px 10px 0;
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--brass-dim); font-weight: 600; white-space: nowrap; width: 36%;
+}
+.kunye td { padding: 10px 0; color: var(--ink); }
+
+.kopya-not { color: var(--muted); font-size: 14px; margin: 14px 0 0; }
+.kopya {
+  background: var(--panel); border: 1px solid var(--rule); border-radius: 10px;
+  padding: 16px 18px; margin: 14px 0 0;
+}
+.kopya-basi {
+  font-size: 11px; letter-spacing: .18em; text-transform: uppercase;
+  color: var(--brass-dim); font-weight: 600; margin-bottom: 10px;
+}
+.kopya p { margin: 0 0 10px; }
+.kopya p:last-child { margin-bottom: 0; }
+
+.galeri {
+  display: grid; grid-template-columns: repeat(2, 1fr);
+  gap: 12px; margin: 18px 0 0;
+}
+.galeri img {
+  width: 100%; height: auto; display: block;
+  border-radius: 8px; box-shadow: 0 10px 26px rgba(0,0,0,.45);
+}
+
+.ikon-satir { display: flex; align-items: center; gap: 16px; margin: 18px 0 0; }
+.ikon-satir img { border-radius: 22px; box-shadow: 0 10px 26px rgba(0,0,0,.5); }
+.ikon-satir span { color: var(--muted); font-size: 14px; }
+
+@media (min-width: 700px) {
+  .galeri { grid-template-columns: repeat(4, 1fr); gap: 14px; }
+}
