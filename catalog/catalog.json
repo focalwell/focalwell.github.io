@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 11,
   "films": [
     {
       "id": "lomo800",
@@ -260,14 +260,14 @@
         0.56
       ],
       "recipe": {
-        "redGain": 1.06,
+        "redGain": 1.09,
         "greenGain": 1.0,
-        "blueGain": 0.95,
+        "blueGain": 0.91,
         "redPolynomial": [
           0.0,
-          0.93,
-          0.22,
-          -0.14
+          0.9,
+          0.28,
+          -0.18
         ],
         "greenPolynomial": [
           0.006,
@@ -276,10 +276,10 @@
           -0.02
         ],
         "bluePolynomial": [
-          0.055,
-          1.0,
-          -0.2,
-          0.15
+          0.075,
+          1.02,
+          -0.26,
+          0.17
         ],
         "toneCurve": [
           0,
@@ -293,7 +293,7 @@
           1,
           1.0
         ],
-        "saturation": 1.06,
+        "saturation": 1.12,
         "contrast": 1.2,
         "vignetteIntensity": 0.2,
         "vignetteRadius": 1.6,
@@ -405,6 +405,100 @@
         "vignetteRadius": 1.2,
         "grainIntensity": 0.28,
         "grainSize": 2.2
+      }
+    },
+    {
+      "id": "fwOrtho25",
+      "category": "blackWhite",
+      "displayName": "Ortho 25",
+      "brand": "FOCALWELL",
+      "stockName": "ORTHO",
+      "isoLabel": "ISO 25",
+      "characterNote": "Kırmızıya kör: ten koyu, gök bembeyaz",
+      "box": [
+        0.22,
+        0.28,
+        0.38
+      ],
+      "accent": [
+        0.88,
+        0.9,
+        0.94
+      ],
+      "recipe": {
+        "isMonochrome": true,
+        "monoWeights": [
+          -0.25,
+          0.5,
+          1.05
+        ],
+        "toneRed": 0.99,
+        "toneGreen": 1.0,
+        "toneBlue": 1.03,
+        "toneCurve": [
+          0,
+          0.0,
+          0.25,
+          0.2,
+          0.5,
+          0.52,
+          0.75,
+          0.86,
+          1,
+          1.0
+        ],
+        "contrast": 1.2,
+        "grainIntensity": 0.1,
+        "grainSize": 1.4,
+        "vignetteIntensity": 0.22
+      }
+    },
+    {
+      "id": "fwWetPlate",
+      "category": "print",
+      "displayName": "Wet Plate",
+      "brand": "FOCALWELL",
+      "stockName": "WET PLATE",
+      "isoLabel": "COLLODION",
+      "characterNote": "Islak plaka: gümüş ton, dökme kenarı, tanesiz",
+      "box": [
+        0.26,
+        0.22,
+        0.18
+      ],
+      "accent": [
+        0.82,
+        0.76,
+        0.66
+      ],
+      "recipe": {
+        "isMonochrome": true,
+        "monoWeights": [
+          -0.4,
+          0.35,
+          1.2
+        ],
+        "toneRed": 1.07,
+        "toneGreen": 1.0,
+        "toneBlue": 0.91,
+        "toneCurve": [
+          0,
+          0.06,
+          0.25,
+          0.27,
+          0.5,
+          0.52,
+          0.75,
+          0.75,
+          1,
+          0.9
+        ],
+        "contrast": 1.06,
+        "vignetteIntensity": 0.75,
+        "grainIntensity": 0.05,
+        "grainSize": 1.2,
+        "edgeBurn": 0.28,
+        "scratchIntensity": 0.22
       }
     }
   ],
