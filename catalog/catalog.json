@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 13,
   "films": [
     {
       "id": "lomo800",
@@ -43,6 +43,25 @@
         "grainSize": 1.9,
         "lightLeakIntensity": 0.15,
         "lightLeakWarmth": 1.3
+      },
+      "characterNoteL10n": {
+        "tr": "Doygun renk, kalın tane, sıcak sızıntılar — parti filmi",
+        "en": "Saturated colour, coarse grain, warm leaks — a party film",
+        "de": "Satte Farbe, grobes Korn, warme Lichtlecks — ein Partyfilm",
+        "fr": "Couleur saturée, gros grain, fuites chaudes — la pellicule des fêtes",
+        "es": "Color saturado, grano grueso, fugas cálidas — el carrete de las fiestas",
+        "it": "Colore saturo, grana grossa, fughe di luce calde — il rullino delle feste",
+        "ja": "濃い色、粗い粒子、暖かい光漏れ — パーティーのフィルム",
+        "ko": "짙은 색, 굵은 입자, 따뜻한 광선 누출 — 파티용 필름",
+        "zh-Hant": "濃色、粗顆粒、暖色漏光 — 派對用的底片",
+        "pt-BR": "Cor saturada, grão grosso, vazamentos quentes — o filme das festas",
+        "nl": "Verzadigde kleur, grove korrel, warme lichtlekken — een feestfilm",
+        "pl": "Nasycony kolor, grube ziarno, ciepłe przecieki — film na imprezy",
+        "sv": "Mättad färg, grovt korn, varma ljusläckor — en festfilm",
+        "da": "Mættet farve, groft korn, varme lyslækager — en festfilm",
+        "nb": "Mettet farge, grovt korn, varme lyslekkasjer — en festfilm",
+        "fi": "Kylläinen väri, karkea rae, lämpimät valovuodot — juhlafilmi",
+        "cs": "Sytá barva, hrubé zrno, teplé průsvity — film na párty"
       }
     },
     {
@@ -86,6 +105,25 @@
         "grainIntensity": 0.22,
         "grainSize": 1.2,
         "vignetteIntensity": 0.18
+      },
+      "characterNoteL10n": {
+        "tr": "Sinema kökenli pancro: zifiri gölge, ipeksi ince tane",
+        "en": "Cine-born panchromatic: pitch-black shadows, silky fine grain",
+        "de": "Panchromatisch aus dem Kino: pechschwarze Schatten, seidenfeines Korn",
+        "fr": "Panchromatique venu du cinéma : ombres d'encre, grain fin et soyeux",
+        "es": "Pancromática venida del cine: sombras de tinta, grano fino como la seda",
+        "it": "Pancromatica nata dal cinema: ombre d'inchiostro, grana fine come seta",
+        "ja": "シネマ由来のパンクロ。漆黒のシャドウ、絹のような細粒子",
+        "ko": "영화에서 온 팬크로. 칠흑 같은 그림자, 비단처럼 고운 입자",
+        "zh-Hant": "出身電影的全色片：暗部漆黑，顆粒細如絲",
+        "pt-BR": "Pancromático vindo do cinema: sombras de tinta, grão fino como seda",
+        "nl": "Panchromatisch uit de cinema: pikzwarte schaduwen, zijdezachte fijne korrel",
+        "pl": "Panchromatyczny rodem z kina: atramentowe cienie, jedwabiste drobne ziarno",
+        "sv": "Pankromatisk från bion: bläcksvarta skuggor, silkeslent fint korn",
+        "da": "Pankromatisk fra biografen: bæksorte skygger, silkeblødt fint korn",
+        "nb": "Pankromatisk fra kinoen: bekmørke skygger, silkemykt fint korn",
+        "fi": "Elokuvasta lähtöisin oleva pankromaattinen: pikimustat varjot, silkkinen hieno rae",
+        "cs": "Panchromatický z kina: inkoustové stíny, hedvábně jemné zrno"
       }
     },
     {
@@ -135,6 +173,25 @@
         "grainIntensity": 0.35,
         "grainSize": 1.6,
         "vignetteIntensity": 0.15
+      },
+      "characterNoteL10n": {
+        "tr": "Tungsten sinema negatifi: serin gölge, bal rengi parlak, halasyon",
+        "en": "Tungsten cine negative: cool shadows, honeyed highlights, halation",
+        "de": "Kunstlicht-Kinonegativ: kühle Schatten, honigfarbene Lichter, Halation",
+        "fr": "Négatif cinéma tungstène : ombres froides, hautes lumières miel, halation",
+        "es": "Negativo de cine tungsteno: sombras frías, luces de miel, halación",
+        "it": "Negativo cine tungsteno: ombre fredde, alte luci di miele, alonatura",
+        "ja": "タングステンのシネネガ。冷たいシャドウ、蜜色のハイライト、ハレーション",
+        "ko": "텅스텐 시네 네거티브. 서늘한 그림자, 꿀빛 하이라이트, 할레이션",
+        "zh-Hant": "燈光型電影負片：冷暗部、蜜色亮部、光暈",
+        "pt-BR": "Negativo de cinema tungstênio: sombras frias, luzes cor de mel, halação",
+        "nl": "Kunstlicht-cinenegatief: koele schaduwen, honingkleurige hooglichten, halatie",
+        "pl": "Kinowy negatyw żarowy: chłodne cienie, miodowe światła, halacja",
+        "sv": "Tungsten-filmnegativ: svala skuggor, honungsfärgade högdagrar, halation",
+        "da": "Tungsten-filmnegativ: kølige skygger, honningfarvede højlys, halation",
+        "nb": "Tungsten-filmnegativ: kjølige skygger, honningfargede høylys, halasjon",
+        "fi": "Keinovalon elokuvanegatiivi: viileät varjot, hunajaiset huippuvalot, halaatio",
+        "cs": "Filmový negativ na žárovku: chladné stíny, medová světla, halace"
       }
     },
     {
@@ -198,6 +255,25 @@
         "grainIntensity": 0.22,
         "grainSize": 1.8,
         "brightness": 0.0
+      },
+      "characterNoteL10n": {
+        "tr": "Camgöbeği gök, kehribar ışık, çökmüş gölge",
+        "en": "Cyan sky, amber light, collapsed shadows",
+        "de": "Cyanfarbener Himmel, bernsteinfarbenes Licht, eingefallene Schatten",
+        "fr": "Ciel cyan, lumière ambrée, ombres effondrées",
+        "es": "Cielo cian, luz ámbar, sombras hundidas",
+        "it": "Cielo ciano, luce ambrata, ombre sprofondate",
+        "ja": "シアンの空、琥珀の光、沈んだシャドウ",
+        "ko": "청록 하늘, 호박빛 조명, 주저앉은 그림자",
+        "zh-Hant": "青色天空、琥珀色光、塌下去的暗部",
+        "pt-BR": "Céu ciano, luz âmbar, sombras afundadas",
+        "nl": "Cyaan lucht, amberkleurig licht, ingezakte schaduwen",
+        "pl": "Cyjanowe niebo, bursztynowe światło, zapadnięte cienie",
+        "sv": "Cyan himmel, bärnstensljus, sammansjunkna skuggor",
+        "da": "Cyan himmel, ravlys, sammensunkne skygger",
+        "nb": "Cyan himmel, ravlys, sammensunkne skygger",
+        "fi": "Syaani taivas, meripihkainen valo, lysähtäneet varjot",
+        "cs": "Azurové nebe, jantarové světlo, propadlé stíny"
       }
     },
     {
@@ -239,6 +315,25 @@
         "fade": 0.04,
         "grainIntensity": 0.16,
         "grainSize": 1.5
+      },
+      "characterNoteL10n": {
+        "tr": "Sütlü gölge, sıcak krem, yumuşak kontrast",
+        "en": "Milky shadows, warm cream, soft contrast",
+        "de": "Milchige Schatten, warmes Creme, weicher Kontrast",
+        "fr": "Ombres laiteuses, crème chaude, contraste doux",
+        "es": "Sombras lechosas, crema cálida, contraste suave",
+        "it": "Ombre lattiginose, crema calda, contrasto morbido",
+        "ja": "乳白のシャドウ、暖かいクリーム、やわらかいコントラスト",
+        "ko": "우윳빛 그림자, 따뜻한 크림색, 부드러운 대비",
+        "zh-Hant": "奶霧暗部、溫暖奶油色、柔和對比",
+        "pt-BR": "Sombras leitosas, creme quente, contraste suave",
+        "nl": "Melkachtige schaduwen, warm crème, zacht contrast",
+        "pl": "Mleczne cienie, ciepły krem, miękki kontrast",
+        "sv": "Mjölkiga skuggor, varm grädde, mjuk kontrast",
+        "da": "Mælkede skygger, varm creme, blød kontrast",
+        "nb": "Melkete skygger, varm krem, myk kontrast",
+        "fi": "Maitoiset varjot, lämmin kerma, pehmeä kontrasti",
+        "cs": "Mléčné stíny, teplá smetana, měkký kontrast"
       }
     },
     {
@@ -299,6 +394,25 @@
         "vignetteRadius": 1.6,
         "grainIntensity": 0.14,
         "grainSize": 1.5
+      },
+      "characterNoteL10n": {
+        "tr": "Kehribar duvar, mor-gri gölge, sert kesim",
+        "en": "Amber wall, mauve-grey shadow, hard cut",
+        "de": "Bernsteinfarbene Wand, malvengrauer Schatten, harter Schnitt",
+        "fr": "Mur ambré, ombre gris mauve, coupe franche",
+        "es": "Pared ámbar, sombra gris malva, corte seco",
+        "it": "Muro ambrato, ombra grigio malva, taglio netto",
+        "ja": "琥珀の壁、藤鼠のシャドウ、硬い切れ",
+        "ko": "호박빛 벽, 보랏빛 회색 그림자, 날카로운 절단",
+        "zh-Hant": "琥珀色牆、藕灰暗部、俐落的切分",
+        "pt-BR": "Parede âmbar, sombra cinza-malva, corte seco",
+        "nl": "Amberkleurige muur, mauvegrijze schaduw, harde snede",
+        "pl": "Bursztynowa ściana, fiołkowoszary cień, twarde cięcie",
+        "sv": "Bärnstensfärgad vägg, malvagrå skugga, hårt snitt",
+        "da": "Ravfarvet væg, lyngrå skygge, hårdt snit",
+        "nb": "Ravfarget vegg, lyngrå skygge, hardt snitt",
+        "fi": "Meripihkainen seinä, malvanharmaa varjo, terävä leikkaus",
+        "cs": "Jantarová zeď, slézově šedý stín, ostrý řez"
       }
     },
     {
@@ -342,6 +456,25 @@
         "bloomRadius": 6,
         "grainIntensity": 0.14,
         "grainSize": 1.6
+      },
+      "characterNoteL10n": {
+        "tr": "Soluk pastel, süt gibi gök, ölçülü renk",
+        "en": "Pale pastel, milky sky, measured colour",
+        "de": "Blasses Pastell, milchiger Himmel, maßvolle Farbe",
+        "fr": "Pastel pâle, ciel laiteux, couleur mesurée",
+        "es": "Pastel pálido, cielo lechoso, color medido",
+        "it": "Pastello pallido, cielo lattiginoso, colore misurato",
+        "ja": "淡いパステル、乳白の空、端正な色",
+        "ko": "옅은 파스텔, 우윳빛 하늘, 절제된 색",
+        "zh-Hant": "淡粉彩、奶白天空、克制的顏色",
+        "pt-BR": "Pastel pálido, céu leitoso, cor comedida",
+        "nl": "Bleek pastel, melkachtige lucht, ingetogen kleur",
+        "pl": "Blady pastel, mleczne niebo, powściągliwy kolor",
+        "sv": "Blek pastell, mjölkig himmel, återhållen färg",
+        "da": "Bleg pastel, mælket himmel, afmålt farve",
+        "nb": "Blek pastell, melket himmel, behersket farge",
+        "fi": "Haalea pastelli, maitoinen taivas, hillitty väri",
+        "cs": "Bledý pastel, mléčné nebe, střídmá barva"
       }
     },
     {
@@ -405,6 +538,25 @@
         "vignetteRadius": 1.2,
         "grainIntensity": 0.28,
         "grainSize": 2.2
+      },
+      "characterNoteL10n": {
+        "tr": "Kehribar lamba, camgöbeği gölge, ıslak parıltı",
+        "en": "Amber lamp, cyan shadow, wet glow",
+        "de": "Bernsteinfarbene Lampe, cyanfarbener Schatten, nasses Glänzen",
+        "fr": "Lampe ambrée, ombre cyan, éclat mouillé",
+        "es": "Lámpara ámbar, sombra cian, brillo mojado",
+        "it": "Lampada ambrata, ombra ciano, luccichio bagnato",
+        "ja": "琥珀のランプ、シアンのシャドウ、濡れた輝き",
+        "ko": "호박빛 램프, 청록 그림자, 젖은 광택",
+        "zh-Hant": "琥珀色燈、青色暗部、潮濕的光澤",
+        "pt-BR": "Lâmpada âmbar, sombra ciano, brilho molhado",
+        "nl": "Amberkleurige lamp, cyaan schaduw, natte glans",
+        "pl": "Bursztynowa lampa, cyjanowy cień, mokry połysk",
+        "sv": "Bärnstenslampa, cyan skugga, våt glans",
+        "da": "Ravlampe, cyan skygge, våd glans",
+        "nb": "Ravlampe, cyan skygge, våt glans",
+        "fi": "Meripihkainen lamppu, syaani varjo, märkä kiilto",
+        "cs": "Jantarová lampa, azurový stín, mokrý lesk"
       }
     },
     {
@@ -451,6 +603,25 @@
         "grainIntensity": 0.1,
         "grainSize": 1.4,
         "vignetteIntensity": 0.22
+      },
+      "characterNoteL10n": {
+        "tr": "Kırmızıya kör: ten koyu, gök bembeyaz",
+        "en": "Blind to red: dark skin tones, blown white sky",
+        "de": "Rotblind: dunkle Hauttöne, ausgebrannt weißer Himmel",
+        "fr": "Aveugle au rouge : carnations sombres, ciel blanc brûlé",
+        "es": "Ciega al rojo: pieles oscuras, cielo blanco quemado",
+        "it": "Cieca al rosso: incarnati scuri, cielo bianco bruciato",
+        "ja": "赤に盲目。肌は暗く、空は真っ白",
+        "ko": "빨강에 눈먼 필름. 피부는 어둡고 하늘은 새하얗게",
+        "zh-Hant": "對紅色不感光：膚色偏暗、天空全白",
+        "pt-BR": "Cega ao vermelho: pele escura, céu branco estourado",
+        "nl": "Blind voor rood: donkere huid, uitgebrande witte lucht",
+        "pl": "Ślepy na czerwień: ciemna skóra, wypalone białe niebo",
+        "sv": "Blind för rött: mörk hud, urbränt vit himmel",
+        "da": "Blind for rødt: mørk hud, udbrændt hvid himmel",
+        "nb": "Blind for rødt: mørk hud, utbrent hvit himmel",
+        "fi": "Sokea punaiselle: tumma iho, puhkipalanut valkoinen taivas",
+        "cs": "Slepý na červenou: tmavá pleť, vypálené bílé nebe"
       }
     },
     {
@@ -499,6 +670,25 @@
         "grainSize": 1.2,
         "edgeBurn": 0.28,
         "scratchIntensity": 0.22
+      },
+      "characterNoteL10n": {
+        "tr": "Islak plaka: gümüş ton, dökme kenarı, tanesiz",
+        "en": "Wet plate: silver tone, poured edge, grainless",
+        "de": "Nassplatte: Silberton, gegossener Rand, kornlos",
+        "fr": "Collodion humide : ton argent, bord coulé, sans grain",
+        "es": "Placa húmeda: tono plata, borde vertido, sin grano",
+        "it": "Collodio umido: tono argento, bordo colato, senza grana",
+        "ja": "湿板。銀のトーン、流し込んだ縁、粒子なし",
+        "ko": "습판. 은빛 색조, 부어낸 가장자리, 입자 없음",
+        "zh-Hant": "濕版：銀色調、澆鑄的邊、沒有顆粒",
+        "pt-BR": "Placa úmida: tom prata, borda derramada, sem grão",
+        "nl": "Natte plaat: zilvertoon, gegoten rand, korrelloos",
+        "pl": "Mokra płyta: srebrny ton, odlewany brzeg, bez ziarna",
+        "sv": "Våtplåt: silverton, gjuten kant, kornfri",
+        "da": "Vådplade: sølvtone, støbt kant, kornfri",
+        "nb": "Våtplate: sølvtone, støpt kant, kornfri",
+        "fi": "Märkälevy: hopeinen sävy, valettu reuna, rakeeton",
+        "cs": "Mokrá deska: stříbrný tón, litý okraj, bez zrna"
       }
     }
   ],
@@ -514,7 +704,26 @@
       "edgeSoftness": 0.35,
       "flare": 0.25,
       "glow": 0.3,
-      "zoom": 1.5
+      "zoom": 1.5,
+      "noteL10n": {
+        "tr": "Tek elemanlı eski cam: rüya gibi kenarlar, süt gibi parlama",
+        "en": "A single-element antique glass: dreamlike edges, milky flare",
+        "de": "Eine einlinsige alte Optik: traumhafte Ränder, milchiges Flare",
+        "fr": "Une vieille lentille simple : bords de rêve, flare laiteux",
+        "es": "Una lente antigua de un solo elemento: bordes de sueño, destello lechoso",
+        "it": "Una vecchia lente a singolo elemento: bordi da sogno, flare lattiginoso",
+        "ja": "単玉の古いレンズ。夢のような周辺、乳白のフレア",
+        "ko": "단일 매수의 옛 렌즈. 꿈 같은 주변부, 우윳빛 플레어",
+        "zh-Hant": "單片式老鏡：邊緣如夢，耀光帶奶白",
+        "pt-BR": "Uma lente antiga de elemento único: bordas de sonho, flare leitoso",
+        "nl": "Een oud enkelvoudig glas: dromerige randen, melkachtige flare",
+        "pl": "Stare szkło jednosoczewkowe: senne brzegi, mleczna flara",
+        "sv": "Ett gammalt enkelt glas: drömska kanter, mjölkig flare",
+        "da": "Et gammelt enkeltlinseglas: drømmende kanter, mælket flare",
+        "nb": "Et gammelt enkeltlinseglass: drømmende kanter, melket flare",
+        "fi": "Vanha yksilinssinen lasi: unenomaiset reunat, maitoinen heijastus",
+        "cs": "Staré jednočočkové sklo: snové okraje, mléčný odlesk"
+      }
     }
   ]
 }
